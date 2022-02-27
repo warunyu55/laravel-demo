@@ -1,0 +1,105 @@
+/* user page */
+@media (min-width:992px){
+    .page-padding{
+        padding-left: 13rem;
+        padding-right: 13rem;
+    }
+}
+@media(max-width:768px){
+    .footer-end{
+        text-align: end;
+    }
+}
+li.active{
+    background-color: dimgray;
+    border-radius: 50px;
+}
+.c_color{
+    color: white!important;
+    text-decoration: none;
+}
+/* Image size */
+.cover{
+    object-fit: cover;
+    height: 150px;
+}
+/* text break */
+.text-dot{
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+}
+/* admin page */
+.main-side{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    min-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+@media (max-width:640px){
+    .block-hidden{
+        display:none!important;
+    }
+}
+/* breadcrumb */
+.breadcrumb-item+.breadcrumb-item::before{
+    content: var(--bs-breadcrumb-divider,'|');
+}
+.breadcrumb-a{
+    text-decoration: none;
+    color:black;
+}
+.breadcrumb-a:hover{
+    color: darkgrey;
+}
+/* navbar admin */
+.bg-custom-color{
+    background-color: #50717b;
+}
+.admin-active{
+    background-color: #3a4042;
+}
+/* datatable */
+.dataTables_wrapper .dataTables_length select {
+    padding-left: 0.5rem;
+    padding-right: 2rem;
+}
+/* toggle switch */
+.form-switch .form-check-input{
+    margin-left: 0px!important;
+    width: 3em;
+}
+.form-switch{
+    padding-left: 10px!important;
+}
+
+/* box */
+.title-box{
+    border-radius: 0.25rem;
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+}
+.box-color{
+    background-color: #50717b;
+}
+
+.icon-font{
+    color: rgba(255, 255, 255, 0.15);
+    font-size: 4em;
+}
+
+/* search */
+.nav-search{
+    left: -50px!important;
+}
+.dropdown-menu{
+    min-width: 18rem;
+}
+
+.border-none{
+    border: none!important;
+}
